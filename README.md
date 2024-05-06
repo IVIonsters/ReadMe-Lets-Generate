@@ -11,31 +11,32 @@
 
 
 ## Description
-    INSERT PROJECT DESCRIPTION 
+    Application designed to create a README file from command line, in an effort to speed up the base readme file process for new projects.
+
 ## Languages
 
 * ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 * ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 * ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-
+* ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+* ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
 ## Features
 
-* **DEFINE FEATURES:** DESCRIBE FEATURES HERE 
-* **DEFINE FEATURES:** DESCRIBE FEATURES HERE 
-* **DEFINE FEATURES:** DESCRIBE FEATURES HERE 
-* **DEFINE FEATURES:** DESCRIBE FEATURES HERE 
-* **DEFINE FEATURES:** DESCRIBE FEATURES HERE 
+* **Node integration:** Simply type node index.js to launch application 
+* **Badge Render:** Automatically renders badge for license based on input 
+* **Automated ReadMe:** Automatically generates readme based on user input 
+* **Console Errors:** Application will automatically log errors and display in terminal if error occurs. 
 
 ## Usage
 
-* EXPLAIN GENERAL DESIGN USAGE
+* BOTH inquirer and FS are requried to rune this application. node index.js in the command line to initiate. Video Tutorial below.
 
-* [LIVE PROJECT LINK HERE](https://ivionsters.github.io/IVIonsters-Designs-Blog/)
+* [README-LETS-GENERATE VIDEO DEMO](https://drive.google.com/file/d/1rdu6B32f_6-6KAdwt-_P543aESUOTxbK/view)
 
-* [REPO LINK GOES HERE](https://github.com/IVIonsters/IVIonsters-Designs-Blog)
+* [README REPO LINK](https://github.com/IVIonsters/ReadMe-Lets-Generate)
 
-* ![SCREENSHOTS GO HERE](./assets/refimages/lightmodemain.png)
-* ![SCRENSHOTS HERE](./assets/refimages/lightmodeblog.png)
+* ![SCREENSHOTS GO HERE](./images/termina1.png)
+* ![SCRENSHOTS HERE](./images/screenshot1.png)
 
 
 ## Credits
