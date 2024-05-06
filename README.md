@@ -1,4 +1,4 @@
-# PROJECT REPO TITLE HERE
+# README-LETS-GENERATE
 
 ## Table of Contents
 
@@ -11,7 +11,7 @@
 
 
 ## Description
-    Application designed to create a README file from command line, in an effort to speed up the base readme file process for new projects.
+  Application designed to create a README file from command line, in an effort to speed up the base readme file process for new projects.
 
 ## Languages
 
