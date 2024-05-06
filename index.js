@@ -16,10 +16,23 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) => {
+        if (err) {
+            console.log("FILE NOT CREATED INVALID DATA", err);
+        } else {
+            console.log('File created!');
+        }
+    });
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    const generateMarkdown = require('./utils/generateMarkdown');
+    inquirer.prompt(questions).then((data) => {
+        writeToFile('README.md', generateMarkdown(data));
+    });
+}
 
 // Function call to initialize app
 init();
