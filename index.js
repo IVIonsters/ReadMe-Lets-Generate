@@ -4,15 +4,15 @@ const fs = require('fs');
 
 // TODO: Create an array of questions for user input
 const questions = [
-    {type: 'input', name: 'Title', message: 'What is the title of your project?'},
-    {type: 'input', name: 'Description', message: 'Prove a short description of your Application.'},
-    {type: 'input', name: 'Installation', message: 'Define steps required to install your project.'},
-    {type: 'input', name: 'Usage', message: 'Provide examples of use for your project.'},
-    {type: 'input', name: 'License', message: '"MIT", "Apache", "GPL", "No License"'},
-    {type: 'input', name: 'Contributing', message: 'Add contributing developers, or instructions on how they can contribute!'},
-    {type: 'input', name: 'Tests', message: 'If you are developing tests, include examples here.'},
-    {type: 'input', name: 'Email', message: 'Please enter a valid contact email here!'},
-    {type: 'input', name: 'Username', message: 'Please enter your GitHub username here!'},
+    {type: 'input', name: 'title', message: 'What is the title of your project?'},
+    {type: 'input', name: 'description', message: 'Prove a short description of your Application.'},
+    {type: 'input', name: 'installation', message: 'Define steps required to install your project.'},
+    {type: 'input', name: 'usage', message: 'Provide examples of use for your project.'},
+    {type: 'input', name: 'license', message: '"MIT", "Apache", "GPL", "None"'},
+    {type: 'input', name: 'contributing', message: 'Add contributing developers, or instructions on how they can contribute!'},
+    {type: 'input', name: 'tests', message: 'If you are developing tests, include examples here.'},
+    {type: 'input', name: 'email', message: 'Please enter a valid contact email here!'},
+    {type: 'input', name: 'username', message: 'Please enter your GitHub username here!'},
 ];
 
 // TODO: Create a function to write README file
@@ -29,8 +29,9 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     const generateMarkdown = require('./utils/generateMarkdown');
+    const readMe = "./README.md";
     inquirer.prompt(questions).then((data) => {
-        writeToFile('README.md', generateMarkdown(data));
+        writeToFile(readMe, generateMarkdown(data));
     });
 }
 

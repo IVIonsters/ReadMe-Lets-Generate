@@ -39,7 +39,7 @@ function generateMarkdown(data) {
   ${data.usage}
   ## License
   ${renderLicenseBadge(data.license)}
-  ${data.license === "No License" ? "License not provided." : `This project is licensed under the ${data.license} license.`}
+  ${data.license === "None" ? "License not provided." : `This project is licensed under the ${data.license} license.`}
   ## Contributing
   ${data.contributing}
   ## Tests
