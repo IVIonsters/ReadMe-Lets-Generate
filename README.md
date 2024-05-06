@@ -31,7 +31,7 @@
 
 * BOTH inquirer and FS are requried to rune this application. node index.js in the command line to initiate. Video Tutorial below.
 
-* [README-LETS-GENERATE VIDEO DEMO](https://drive.google.com/file/d/1rdu6B32f_6-6KAdwt-_P543aESUOTxbK/view)
+* [README-LETS-GENERATE VIDEO DEMO](https://drive.google.com/file/d/1_wbEWtN2dmmtNApcj5gOwFaD5tjUBWwX/view?usp=sharing)
 
 * [README REPO LINK](https://github.com/IVIonsters/ReadMe-Lets-Generate)
 
